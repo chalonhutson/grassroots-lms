@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.topSection {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.dashboardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 1rem;
+    height: 5rem;
+}
