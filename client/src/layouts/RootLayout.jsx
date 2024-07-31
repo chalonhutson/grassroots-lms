@@ -32,6 +32,14 @@ export function RootLayout() {
                 <ul className="nav-list">
                     <li>
                         <Link to="/">Home</Link>
+                        <Link to="/courses">My Courses</Link>
+                        <Link to="/catalogue">Course Catalogue</Link>
+                        <Link to="/analytics">Analytics</Link>
+                    </li>
+                    <li>
+                        <Link to="/login">Profile</Link>
+                        <Link to="/options">Options</Link>
+                        <Link to="/logout">Logout</Link>
                     </li>
                 </ul>
             </nav>
